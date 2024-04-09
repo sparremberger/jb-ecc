@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc99f12f.css",
-    "main.js": "/static/js/main.a40c0288.js",
+    "main.js": "/static/js/main.fbd3aedf.js",
     "static/js/787.1a8ae2bb.chunk.js": "/static/js/787.1a8ae2bb.chunk.js",
     "static/media/descartaveis.jpg": "/static/media/descartaveis.c53b0cc91154fe2c6d4a.jpg",
     "static/media/lixeiras.jpg": "/static/media/lixeiras.2e997fdaa8ebf2bef8c6.jpg",
@@ -28,11 +28,11 @@
     "static/media/11.jpg": "/static/media/11.f04b9edf6b1163cd50dd.jpg",
     "index.html": "/index.html",
     "main.dc99f12f.css.map": "/static/css/main.dc99f12f.css.map",
-    "main.a40c0288.js.map": "/static/js/main.a40c0288.js.map",
+    "main.fbd3aedf.js.map": "/static/js/main.fbd3aedf.js.map",
     "787.1a8ae2bb.chunk.js.map": "/static/js/787.1a8ae2bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc99f12f.css",
-    "static/js/main.a40c0288.js"
+    "static/js/main.fbd3aedf.js"
   ]
 }
