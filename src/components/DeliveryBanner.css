@@ -1,0 +1,9 @@
+/* src/components/DeliveryBanner.css */
+.delivery-banner {
+    margin: 15px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}

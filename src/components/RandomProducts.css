@@ -1,0 +1,28 @@
+/* src/components/RandomProducts.css */
+.random-products {
+    margin: 30px;
+    background-color: white; /* Set background color */
+    padding: 20px; /* Add padding */
+}
+
+.section-title {
+    font-weight: bold;
+    color: darkgray; /* Dark gray color for the title */
+    margin-bottom: 10px; /* Add some spacing */
+}
+
+.product-item {
+    flex: 1;
+    
+}
+.product-item img {
+     /* Make the image fit within the product item container */
+    height: 180px; /* Maintain the aspect ratio */
+}
+
+.product-name {
+    color:rgb(0, 0, 123);
+    font-weight: bold;
+}
+
+

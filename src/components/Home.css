@@ -1,0 +1,151 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+.home-container {
+    text-align: center;
+    margin: 0; /* Remove margin */
+}
+
+.home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.home-container {
+    text-align: center;
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+}
+
+.banner {
+    height: 44px;
+    /*background-color: blue; /* You can replace this with an image */
+    margin: 0; /* Remove margin */
+    height: 44px;
+    /* Use the image as the background */
+    background-image: url("../resources/topbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.popup-button {
+    border: none;
+    background: url("../resources/topbutton.png") no-repeat center center;
+    background-size: contain;
+    width: 240px;
+    height: 120px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.popup-content {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* ... (other styles) */
+.category-bar {
+    height: 40px;
+    background-color: rgb(232, 233, 255);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+}
+
+.category-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hamburger-icon {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.category-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1; /* Distribute available space evenly */
+}
+
+.category-item {
+    cursor: pointer;
+    flex-grow: 1; /* Equal spacing for each category */
+    text-align: center; /* Center the category text */
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-size:13px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.category-item:hover {
+    background-color: rgb(1, 1, 130);
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ... (other styles) */

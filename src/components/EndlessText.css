@@ -1,0 +1,28 @@
+/* src/components/EndlessText.css */
+.endless-text {
+    background-color: rgb(0, 0, 54);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto; /* Center the component */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .innerdiv {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+  }
+  
+  .endless-text p {
+    color:rgb(146, 146, 146);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  

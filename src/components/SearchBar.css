@@ -1,0 +1,85 @@
+.logo-container {
+    width: 150px;
+    height: 90px;
+    /* Use the image as the logo background */
+    background-image: url("../resources/logojb.png");
+    background-size: contain; /* Change this line to 'contain' */
+    background-position: center;
+    background-repeat: no-repeat; /* Add this line to prevent repetition */
+    margin-left: 20px;
+}
+
+.search-input-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.search-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #001aff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar-container {
+    height: 110px;
+    background-color: #fffefe; /* Change to your desired color */
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 1; /* Position the overlay behind the search bar container */
+  display: none; /* Initially hidden */
+}
+
+.overlay.active {
+  display: block; /* Show the overlay when active */
+}
+
+.search-bar-content {
+  position: relative;
+  z-index: 3; /* Ensure the content appears above the overlay */
+}
+
+.overlay-active .search-bar-content {
+  filter: blur(2px); /* Apply blur effect to the content when overlay is active */
+}
+
+/* src/components/SearchBar.css */
+/* ... (other styles) */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 2; /* Above other content */
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.search-input.focused {
+  position: relative;
+  z-index: 3;
+}
+

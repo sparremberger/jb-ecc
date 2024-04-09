@@ -1,0 +1,51 @@
+/* src/components/ProductList.css */
+
+.product-list-container {
+    margin: 0; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.two-column-layout {
+    display:flex;
+    margin-left:60px;
+}
+
+.left-column {
+    margin-top:10px;
+}
+
+
+/* Add these styles to your CSS file */
+
+.product-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width:80%;
+}
+
+.product-container:hover .hover-image {
+    opacity: 1;
+}
+
+.random-products {
+    margin-top:0;
+    width:100%;
+    margin-left:0;
+}
+/* Add more styles as needed */

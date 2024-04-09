@@ -1,0 +1,39 @@
+/* src/components/Columns.css */
+.columns {
+    display: flex;
+    background-color: #122743;
+    color: white;
+    padding: 20px;
+  }
+  
+  .column {
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .link-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .link-item {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .social-icons > * {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  

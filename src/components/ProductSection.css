@@ -1,0 +1,29 @@
+/* src/components/ProductSection.css */
+.product-section {
+    margin: 20px 0;
+}
+
+.section-title {
+    color: rgb(116, 116, 116);
+    text-align: left; /* Align the title to the left */
+}
+
+/* src/components/ProductSection.css */
+.product-section {
+    margin: 20px;
+    margin-left:40px;
+    display: flex; /* Add this line */
+    flex-wrap: wrap; /* Add this line to wrap products to the next line if needed */
+}
+
+.section-title {
+    color: rgb(95, 95, 95);
+    margin-bottom: 10px;
+    width: 100%; /* Add this line to ensure title takes up full width */
+}
+
+.product-list {
+    display: flex; /* Add this line to display products in a row */
+    flex-wrap: wrap; /* Add this line to wrap products to the next line if needed */
+    justify-content: space-between; /* Add this line to evenly distribute products */
+}
